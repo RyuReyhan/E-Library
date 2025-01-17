@@ -1,0 +1,59 @@
+
+### Get All Anggota
+GET http://localhost:5000/api/anggota
+
+### Create Anggota
+POST http://localhost:5000/api/anggota
+Content-Type: application/json
+
+{
+  "nama": "John Doe",
+  "npm": "12345678",
+  "tempat_lahir": "Jakarta",
+  "jenis_kelamin": "Laki-laki",
+  "program_studi": "Teknik Informatika"
+}
+
+### Get All Buku
+GET http://localhost:5000/buku
+
+### Create Buku
+POST http://localhost:5000/buku
+Content-Type: application/json
+
+{
+  "judul": "Pemrograman Java",
+  "pengarang": "James Gosling",
+  "penerbit": "Tech Books",
+  "jumlah_buku": 10
+}
+
+### Get All Transaksi
+GET http://localhost:5000/transaksi
+
+### Create Transaksi
+POST http://localhost:5000/transaksi
+Content-Type: application/json
+
+{
+  "judul": "Pemrograman Java",
+  "nama": "John Doe",
+  "tanggal_pinjam": "2025-01-10",
+  "tanggal_kembali": "2025-01-20",
+  "status": "Dipinjam",
+  "terlambat": 0
+}
+
+### Get All Pengguna
+GET http://localhost:5000/pengguna
+
+### Create Pengguna
+POST http://localhost:5000/pengguna
+Content-Type: application/json
+
+{
+  "username": "jamay",
+  "nama": "John Doe",
+  "jurusan": "Teknik Informatika"
+}
+
